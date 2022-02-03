@@ -1,0 +1,28 @@
+
+/*
+@font-face {
+	font-family: 'my-custom';
+	font-weight: 100 1000;
+	font-display: swap;
+	src: url( 'fonts/variable/Roboto[ital,wdth,wght].ttf' ) format('woff2');
+	!*src: url( 'fonts/variable/RobotoFlex[GRAD,XOPQ,XTRA,YOPQ,YTAS,YTDE,YTFI,YTLC,YTUC,opsz,slnt,wdth,wght].ttf' ) format('woff2');*!
+}
+*/
+
+body {  font-size: 18px; }
+
+.italic { font-style: italic; }
+.text {
+	font-size: 200%;
+	font-family: 'my-custom', Arial, sans-serif;
+	padding: 2em;
+	text-align: center;
+	/*font-variation-settings: 'wght' 100;*/
+	/*font-variation-settings: 'wght' 600, 'ital' 1;*/
+	/*font-variation-settings: 'ital' 1;
+	/*font-variation-settings: 'slnt' -10;*/
+}
+[type="range"]{ width: 100%;}
+.range-wrap{ display: flex; white-space: nowrap; }
+
+.font-weight{ text-align: center; }
